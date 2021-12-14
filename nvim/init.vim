@@ -96,6 +96,9 @@ require'lspconfig'.pyright.setup{}
 require'lspconfig'.gopls.setup{}
 require'lspconfig'.sqlls.setup{}
 require'lspconfig'.bashls.setup{}
+require'lspconfig'.solargraph.setup{}
+require'lspconfig'.svelte.setup{}
+require'lspconfig'.vuels.setup{}
 require'telescope'.setup{}
 
 require'nvim-treesitter.configs'.setup {
@@ -206,8 +209,7 @@ syntax enable
 " Visual settings
 set termguicolors
 set background=dark
-color distilled
-
+color spring-night
 " Statusline
 set statusline=[%M%n]\ %y\ %t\ %=\ %l:%c
 
