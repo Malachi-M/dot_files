@@ -1,4 +1,4 @@
-" spring-niht: Calm-colored dark color scheme
+" spring-night: Calm-colored dark color scheme
 "
 " Author: rhysd <lin90162@yahoo.co.jp>
 " License: MIT
@@ -278,4 +278,3 @@ if g:spring_night_highlight_terminal
         let g:terminal_ansi_colors = ['#132132', '#ff6a6f', '#a9dd9d', '#fedf81', '#7098e6', '#605779', '#a8d2eb', '#fffeeb', '#8d9eb2', '#fd8489', '#c9fd88', '#f0eaaa', '#98b8e6', '#e7d5ff', '#a8d2eb', '#ffffff']
     endif
 endif
-
