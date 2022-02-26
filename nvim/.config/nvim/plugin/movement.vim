@@ -32,3 +32,5 @@ map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 nnoremap <leader>a :cclose<CR>
 
+nnoremap <c-\> <cmd>SymbolsOutline<cr>
+
