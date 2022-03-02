@@ -33,4 +33,17 @@ map <C-m> :cprevious<CR>
 nnoremap <leader>a :cclose<CR>
 
 nnoremap <c-\> <cmd>SymbolsOutline<cr>
+" Center Cursor
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap J mzJ`z
 
+" Create Breakpoints
+nnoremap , ,<c-g>u
+nnoremap . .<c-g>u
+nnoremap ! !<c-g>u
+nnoremap ? ?<c-g>u
+
+" Move Selection
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
