@@ -20,8 +20,12 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'simrat39/symbols-outline.nvim'
-Plug('tami5/sqlite.lua')
-Plug('nvim-telescope/telescope-frecency.nvim')
+Plug 'tami5/sqlite.lua'
+Plug 'nvim-telescope/telescope-frecency.nvim'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'theprimeagen/harpoon'
+Plug 'nvim-lua/popup.nvim'
 call plug#end()
 
 " Editor settings

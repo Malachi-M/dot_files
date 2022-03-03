@@ -32,6 +32,7 @@ set scrolloff=8
 set signcolumn=yes
 set colorcolumn=80
 set textwidth=80
+set cmdheight=1
 
 " Ignore case when searching
 set ignorecase
