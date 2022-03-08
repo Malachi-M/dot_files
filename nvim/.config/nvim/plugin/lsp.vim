@@ -4,6 +4,7 @@ require'lspconfig'.gopls.setup{}
 require'lspconfig'.sqlls.setup{}
 require'lspconfig'.bashls.setup{}
 require'lspconfig'.svelte.setup{}
+require'lspconfig'.graphql.setup{}
 
 local lspconfig = require('lspconfig')
 
