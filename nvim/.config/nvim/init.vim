@@ -26,6 +26,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'theprimeagen/harpoon'
 Plug 'nvim-lua/popup.nvim'
+Plug 'sbdchd/neoformat'
 call plug#end()
 
 " Editor settings
@@ -37,7 +38,7 @@ filetype indent off
 let mapleader = "\<Space>"
 
 " Better Escape
-let g:better_escape_shortcut = 'jj'
+let g:better_escape_shortcut = ['jj', 'jk', 'kj']
 
 " Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1

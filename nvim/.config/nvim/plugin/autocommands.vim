@@ -11,5 +11,7 @@ endfun
 
 augroup WILD
   autocmd!
+  autocmd BufWritePre * undojoin | Neoformat
   autocmd BufWritePre * :call TrimWhitespace()
 augroup END
+
