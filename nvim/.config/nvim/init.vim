@@ -8,6 +8,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'jdhao/better-escape.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+Plug 'nvim-treesitter/nvim-treesitter-context'
 Plug 'yggdroot/indentline'
 Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
