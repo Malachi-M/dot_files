@@ -6,6 +6,7 @@ require'lspconfig'.bashls.setup{}
 require'lspconfig'.svelte.setup{}
 require'lspconfig'.graphql.setup{}
 require'lspconfig'.tsserver.setup{}
+require'lspconfig'.dockerls.setup{}
 
 local lspconfig = require('lspconfig')
 

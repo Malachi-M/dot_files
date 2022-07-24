@@ -28,6 +28,9 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'theprimeagen/harpoon'
 Plug 'nvim-lua/popup.nvim'
 Plug 'sbdchd/neoformat'
+Plug 'renerocksai/telekasten.nvim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'mzlogin/vim-markdown-toc'
 call plug#end()
 
 " Editor settings
