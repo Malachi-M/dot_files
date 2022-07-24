@@ -49,3 +49,5 @@ set formatoptions+=r
 set listchars=tab:\\t,extends:›,precedes:‹,nbsp:•,trail:•
 set ruler
 
+" winbar statusline setup
+"set winbar=%=%m\ %f
